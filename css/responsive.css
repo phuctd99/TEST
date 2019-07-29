@@ -1,4 +1,71 @@
 /* CSS Document */
+
+
+@media(max-width: 991.98px){
+	.top-contact #hidden{
+		display: none;
+	}
+	.OS{
+		display: block;
+	}
+	.img-OS{
+		margin-right: 30px;
+		width: 90%;
+		height: 90%;
+	}
+	.mod-OS{
+		height: 80%;
+	}
+	.col-OS{
+		display: flex; 
+		max-width: 100%;
+		margin: 20px;
+	}
+}
+
+@media (max-width:767.98px){
+	.top-header .top-contact{
+		display: none;
+	}
+	.navigation ul li{
+		margin-left: 10px;
+	}
+	.bn-four{
+		display: none;
+	}
+	.About-left{
+		max-width: none;
+	}
+	.About-right{
+		display: none;
+	}
+	.col-WCU{
+		max-width: 40%;
+	}
+	.col-OS{
+		max-width: none;
+	}
+	.MWL{
+		display: none;
+	}
+	.CR{
+		display: none;
+	}
+	.left-foot-CR{
+		display: block;
+	}
+	.right-foot-CR{
+		display: block;
+	}
+	.form-control1{
+		margin: 10px 0px;
+		width: 340px;
+	}
+	.form-control{
+		width: 340px;
+		margin:0px 0px 20px 0px;
+	}
+}
 @media (max-width: 630px){
 	
 	.menu_bar{
@@ -56,6 +123,7 @@
 	}
 	.col-OS{
 		max-width: none;
+		display: block;
 	}
 	.img-OS{
 		width: 90%;
@@ -76,64 +144,7 @@
 	footer .container-footer{
 		display: block;
 	}
-	
-}
-@media (max-width:767.98px){
-	.top-header .top-contact{
-		display: none;
-	}
-	.navigation ul li{
-		margin-left: 10px;
-	}
-	.bn-four{
-		display: none;
-	}
-	.About-left{
-		max-width: none;
-	}
-	.About-right{
-		display: none;
-	}
-	.col-WCU{
-		max-width: 40%;
-	}
-	.col-OS{
-		max-width: none;
-	}
-	.MWL{
-		display: none;
-	}
-	.CR{
-		display: none;
-	}
-	.left-foot-CR{
-		display: block;
-	}
 	.right-foot-CR{
-		display: block;
-	}
-	.form-control1{
-		margin: 10px 0px;
-		width: 400px;
-	}
-	.form-control{
-		width: 400px;
-		margin:0px 0px 20px 0px;
-	}
-}
-@media (min-width:767.99px) and (max-width: 991.98px){
-	.top-contact #hidden{
-		display: none;
-	}
-	.OS{
-		display: block;
-	}
-	.img-OS{
-		margin-right: 30px;
-	}
-	.col-OS{
-		display: flex;
-		max-width: 100%;
-		margin: 20px;
+		float: none;
 	}
 }
