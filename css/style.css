@@ -460,7 +460,6 @@ button:hover{
 }
 .col-CR-mid{
 	max-width: 30%;
-	overflow: auto;
 }
 #talk1{
 	overflow: hidden;
