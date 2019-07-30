@@ -136,7 +136,7 @@ header{
 .logo{
 	margin: 20px 0px;
 	display: inline-block;
-	
+	min-width: 190px;
 }
 .logo > a{
 	text-decoration: none;
@@ -155,18 +155,22 @@ header{
 }
 .menu_bar{
 	display: none;
+	max-width: 30px;
 }
 
+.header .container{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
 .navigation{
-	
 	height: 60px;
-	float: right;
 	margin-top: 35px;
 }
 .navigation ul li{
-	margin-left: 30px;
+	margin-left: 25px;
 	list-style: none;
-	float: left;
+	display: inline-block;
 }
 .navigation ul li a:hover{
 	color: #ffcb0f;
