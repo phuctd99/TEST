@@ -82,7 +82,7 @@
 		display: none;
 	}
 	.navigation{
-		transform: translate(700px,54px);
+		transform: translate(-500px,54px);
 		position: absolute;
 	}
 	.navigation.open ul li{
@@ -94,6 +94,7 @@
 		border: 1px solid #ffcb0f;
 		background-color: #222533;
 		float: left;
+		max-width: 200px;
 	}
 	.navigation.open ul li:hover{
 		background-color: #ffcb0f;
@@ -104,7 +105,7 @@
 		color: #ffffff;
 	}
 	.navigation.open{
-		transform: translate(230px, 54px);
+		transform: translate(0px, 54px);
 		transition: transform 1.2s;
 	}
 	.navigation.open #hid{
